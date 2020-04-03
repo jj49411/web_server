@@ -4,6 +4,13 @@ body {
   max-width: 650px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex-grow: 1;
 }
 
 header {
@@ -25,7 +32,7 @@ h1 {
 }
 
 img {
-  width: 250px;
+  width: 700px;
 }
 
 header a {
